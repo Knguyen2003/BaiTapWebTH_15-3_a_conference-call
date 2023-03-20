@@ -1,0 +1,140 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: 109px 905px 389px;
+    /* width: 1211px; */
+    /* height: auto; */
+}
+/* LEFT */
+#left-container{
+    display:flex;
+    /* width: 90px; */
+    height: 847px;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.left-up{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left-down{
+    /* height: 109px; */
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+.item{
+   margin-bottom:46px;
+   width: 30px;
+}
+
+/* CENTER */
+#center-container{
+    background-color: navajowhite;
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    /* height: 41px; */
+    align-items: center;
+}
+
+.nav-top > p{
+    display: flex;
+   color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 92px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-top p > span{
+    margin-right: 8px;
+    height: 10px;
+    width: 10px;
+    /* border-style: solid; */
+    border-radius: 50%;
+    background-color: red;
+}
+.internal img{
+    display: flex;
+    height: 12px;
+    width: 11px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 2px;
+    /* box-sizing: border-box; */
+}
+.internal{
+    display: flex;
+    height: 30px;
+    width:82px;
+    border-radius: 25px;
+    border: 1px solid red;
+    background-color: red;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: middle; */
+}
+.nav-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    /* margin-right: 10px; */
+    /* padding-right: 20px; */
+}
+
+
+.content{
+    margin-top: 37px;
+}
+.video-big p > span{
+    /* margin-right: 8px; */
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    margin-right: 2px;
+}
+.video-big > p{
+    display: flex;
+    background-color: grey;
+    border-radius: 10px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    color: whitesmoke;
+}
+
+.video-three-small{
+    margin-top: 24px;
+    display: flex;
+    height: 162px;
+    width: 829px;
+    justify-content: space-between;
+}
+.video-three-small img{
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+#right-container{
+    background-color: chartreuse;
+}
