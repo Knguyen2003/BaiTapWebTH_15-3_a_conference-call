@@ -156,17 +156,17 @@
 
 
 
+/* RIGHT */
 
 
 
 
-
-#right-container{
+/* #right-container{
     background-color: chartreuse;
-    /* display: flexbox; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-}
+     display: flexbox; 
+     flex-direction: column; 
+     justify-content: space-between; 
+} */
 /* .info-items{
     width: 390px;
     display: flex;
@@ -217,3 +217,67 @@
     justify-content: space-between;
     /* align-items: baselineS; */
 }
+/* .icon{
+    width: 20px;
+    font-weight: 10000px;
+} */
+
+
+.tn{
+    display: flex;
+    background-color: whitesmoke; 
+    padding: 4px;
+    margin-left: 45px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.person > span:last-child{
+    color: grey;
+    font-size: 12px;
+    margin-left: 10px;
+}
+/* .content-items{
+    margin-bottom: 22px;
+} */
+/* deu hinh */
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.person img{
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+}
+ /* .comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}       */
+.chat{
+    margin-top: 77px;
+}
+.nhap input{
+    width: 300px;
+    height: 30px;
+    /* border: none; */
+}
+.nhap{
+    display: flex;
+}
+.send{
+    margin-left:15px;
+}
+.iconheart{
+    margin-left: 35px;
+}
+.iconheart img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+ 
